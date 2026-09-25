@@ -7,8 +7,6 @@
 dataset/
 
 # 2. Large generated files exceeding GitHub 100MB limit
-**/output/candidate_pairs.tsv
-output/candidate_pairs.tsv
 *.zip
 **/*.zip
 
