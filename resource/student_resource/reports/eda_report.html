@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amazon ML Challenge — Entity Resolution EDA Report</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 40px; background: #0f172a; color: #f8fafc; }
+        h1, h2, h3 { color: #38bdf8; }
+        .card { background: #1e293b; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #334155; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { padding: 10px; text-align: left; border-bottom: 1px solid #334155; }
+        th { background: #334155; color: #38bdf8; }
+        .badge { background: #0284c7; padding: 4px 8px; border-radius: 4px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Amazon ML Challenge 2026: Business Entity Resolution</h1>
+    <h2>Exploratory Data Analysis (EDA) Report</h2>
+    
+    <div class="card">
+        <h3>Dataset Summary</h3>
+        <table>
+            <tr><th>Dataset</th><th>Record Count</th><th>Role</th></tr>
+            <tr><td>Source 1 (Train)</td><td>2,206,821</td><td>Deduplicated Reference Entities</td></tr>
+            <tr><td>Source 2 (Train)</td><td>5,034,616</td><td>Noisy Business Records</td></tr>
+            <tr><td>Source 3 (Train)</td><td>5,285,603</td><td>Noisy Business Records</td></tr>
+            <tr><td>Ground Truth (Train)</td><td>2,206,821</td><td>Reference Match Labels</td></tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h3>Ground Truth & Singletons</h3>
+        <p>Total S1 Entities: <strong>2,206,821</strong></p>
+        <p>Singletons (Zero Matches): <strong>123,247 (5.58%)</strong></p>
+        <p>Entities with Matches: <strong>2,083,574 (94.42%)</strong></p>
+        <p>Total True Linkage Pairs: <strong>7,638,365</strong></p>
+    </div>
+
+    <div class="card">
+        <h3>Key Technical Findings</h3>
+        <ul>
+            <li><strong>Strict Country Partitioning:</strong> 100% of matching pairs stay within the same country boundary (0 cross-country matches).</li>
+            <li><strong>Open Set Country Support:</strong> Pipeline dynamically handles open set countries (US, India, France).</li>
+            <li><strong>Precision-Weighted Metric:</strong> Submissions evaluated under Macro F0.5, weighting precision 2x over recall.</li>
+        </ul>
+    </div>
+</body>
+</html>

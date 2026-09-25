@@ -1,0 +1,74 @@
+{
+  "dataset_statistics": {
+    "train_source1_rows": 2206821,
+    "train_source2_rows": 5034616,
+    "train_source3_rows": 5285603,
+    "train_ground_truth_rows": 2206821,
+    "s1_countries": [
+      {
+        "country": "India",
+        "count": 883188
+      },
+      {
+        "country": "US",
+        "count": 1323633
+      }
+    ],
+    "s2_countries": [
+      {
+        "country": "US",
+        "count": 3016817
+      },
+      {
+        "country": "India",
+        "count": 2017799
+      }
+    ],
+    "s3_countries": [
+      {
+        "country": "India",
+        "count": 2115547
+      },
+      {
+        "country": "US",
+        "count": 3170056
+      }
+    ]
+  },
+  "ground_truth_distribution": {
+    "total_s1_entities": 2206821,
+    "singleton_count": 123247,
+    "singleton_percentage": 5.584820880352326,
+    "match_count_distribution": {
+      "3": 530841,
+      "4": 484115,
+      "2": 375212,
+      "5": 321957,
+      "6": 164868,
+      "0": 123247,
+      "1": 119157,
+      "7": 63968,
+      "8": 18680,
+      "9": 4205,
+      "10": 534,
+      "11": 37
+    },
+    "total_matching_pairs": 7638365
+  },
+  "noise_characteristics": {
+    "name_variations": [
+      "legal suffixes",
+      "abbreviations",
+      "case differences",
+      "typos",
+      "transliterations"
+    ],
+    "address_variations": [
+      "missing components",
+      "landmark references",
+      "street abbreviation variations",
+      "multilingual script"
+    ],
+    "cross_country_matches": 0
+  }
+}

@@ -1,0 +1,48 @@
+# ==============================================================================
+# Amazon ML Challenge 2026 - .gitignore
+# ==============================================================================
+
+# 1. Large raw dataset directories (multi-GB TSV files)
+**/dataset/
+dataset/
+
+# 2. Large generated files exceeding GitHub 100MB limit
+**/output/candidate_pairs.tsv
+output/candidate_pairs.tsv
+*.zip
+**/*.zip
+
+# 3. Large precomputed binary feature matrices & model weights
+**/models/*.parquet
+**/models/*.npz
+models/
+
+# 4. Large video assets (keep PDF documentation only)
+*.mp4
+**/*.mp4
+
+# 5. OS & IDE artifacts
+.DS_Store
+**/.DS_Store
+__MACOSX/
+**/__MACOSX/
+.vscode/
+**/.vscode/
+.idea/
+**/.idea/
+
+# 6. Python bytecode & execution caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# 7. Intermediate scratch & exploration scripts
+**/scratch_*.py
+scratch_*.py
+*.log
+**/*.log
+repo_temp/
+**/repo_temp/

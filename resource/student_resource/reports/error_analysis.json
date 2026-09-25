@@ -1,0 +1,143 @@
+{
+  "true_positives_sample": [
+    {
+      "s1_id": "S1-543512477",
+      "cand_id": "S3-49002194",
+      "s1_name": "Lsv Solutions Limited",
+      "cand_name": "Lsv Solutions",
+      "s1_addr": "68, Mahalaxmi Ind Estate, Opp. New Vasahat, Vatva, Ahmedabad, Gujarat",
+      "cand_addr": "68, Mahalaxmi Ind Estate, Opp. New Vasahat, Vatva, Ahmedabad, GJ",
+      "type": "TRUE_POSITIVE"
+    },
+    {
+      "s1_id": "S1-543512477",
+      "cand_id": "S2-886526074",
+      "s1_name": "Lsv Solutions Limited",
+      "cand_name": "Lsv Limited Solutions",
+      "s1_addr": "68, Mahalaxmi Ind Estate, Opp. New Vasahat, Vatva, Ahmedabad, Gujarat",
+      "cand_addr": "68, MAHALAXMI IND ETSATE, OPP. NEW VASAHAT, VATVA, AHMEDABAD, Gujarat",
+      "type": "TRUE_POSITIVE"
+    },
+    {
+      "s1_id": "S1-494191058",
+      "cand_id": "S2-243920068",
+      "s1_name": "Keystone Cargo Enterprises",
+      "cand_name": "Keystone Cargo Eltiterpdirses",
+      "s1_addr": "1853 Eastgate Road, Toledo, OH",
+      "cand_addr": "1853 1/2 EASTGATE ROAD, TOLEDO, OH",
+      "type": "TRUE_POSITIVE"
+    },
+    {
+      "s1_id": "S1-494191058",
+      "cand_id": "S3-68058404",
+      "s1_name": "Keystone Cargo Enterprises",
+      "cand_name": "keystonecargoenterprises.com",
+      "s1_addr": "1853 Eastgate Road, Toledo, OH",
+      "cand_addr": "1853 Eastgate Road, Tloedo, Ohio",
+      "type": "TRUE_POSITIVE"
+    },
+    {
+      "s1_id": "S1-494191058",
+      "cand_id": "S2-108179944",
+      "s1_name": "Keystone Cargo Enterprises",
+      "cand_name": "Keystone Cargo Partners",
+      "s1_addr": "1853 Eastgate Road, Toledo, OH",
+      "cand_addr": "1853 1/2 EASTGATE ROAD, TOLEDO, OH",
+      "type": "TRUE_POSITIVE"
+    }
+  ],
+  "false_positives_sample": [
+    {
+      "s1_id": "S1-969622957",
+      "cand_id": "S3-712160665",
+      "s1_name": "Dynamic Construction Pvt Ltd",
+      "cand_name": "Public Dynamic Construction Limited",
+      "s1_addr": "Flat No. 102, Ratna Residency, Vuyyuru Shivalayam Street, Near Water Ta, Nk, Vuyyuru, Krishna, Andhra Pradesh",
+      "cand_addr": "Flat No. 123, Ratna Residency, Vuyyuru Shivalayam Street, Near Water Ta, Nk, Vuyyuru, Krishna, \u0c06\u0c02\u0c27\u0c4d\u0c30\u0c2a\u0c4d\u0c30\u0c26\u0c47\u0c36\u0c4d",
+      "type": "FALSE_POSITIVE"
+    },
+    {
+      "s1_id": "S1-115416391",
+      "cand_id": "S3-281401037",
+      "s1_name": "Bhagat Chandira Hospital Energy",
+      "cand_name": "Bhagat Chandira Hospital Energy Group",
+      "s1_addr": "Delhi, Rzf-1/1B F/F Flat No. B2, West Delhi, Kh No. 87/4/1 Street No-1, Mahavir Enclave, Behind, Bhagat Chandira Hospital",
+      "cand_addr": "Rzf-1/1b F/f Flat No. B11, Kh No. 87/4/1 Street No-1, Mahavir Enclave, Behind, West Delhi, Bhagat Chandira Hospital, \u0926\u093f\u0932\u094d\u0932\u0940",
+      "type": "FALSE_POSITIVE"
+    },
+    {
+      "s1_id": "S1-115416391",
+      "cand_id": "S2-414970084",
+      "s1_name": "Bhagat Chandira Hospital Energy",
+      "cand_name": "Bhagat Chandira Hospital Energy Pvt Ltd",
+      "s1_addr": "Delhi, Rzf-1/1B F/F Flat No. B2, West Delhi, Kh No. 87/4/1 Street No-1, Mahavir Enclave, Behind, Bhagat Chandira Hospital",
+      "cand_addr": "RZF-1/1B F/F FLAT NO. B11, KH NO. 87/4/1 STREET NO-1, MAHAVIR ENCLAVE, BEHIND, BHAGAT CHANDIRA HOSPITAL, Delhi",
+      "type": "FALSE_POSITIVE"
+    },
+    {
+      "s1_id": "S1-220457787",
+      "cand_id": "S3-356135444",
+      "s1_name": "Arya Solutions Private Limited",
+      "cand_name": "Arya Solutions Exports Private Limited",
+      "s1_addr": "Lgf-1A Mahagun Mezzaria, Plot No.Gh-01/A, Sector-78, Noida, Gautam Buddha Nagar, Uttar Pradesh",
+      "cand_addr": "Lgf-6a Mahagun Mezzaria, Plot No.gh-01/a, Sector-78, Noida, Gautam Buddha Nagar, UP",
+      "type": "FALSE_POSITIVE"
+    },
+    {
+      "s1_id": "S1-842505131",
+      "cand_id": "S3-234102724",
+      "s1_name": "Bangalore Advisory Private Limited",
+      "cand_name": "Bangalore Advisory Infratech",
+      "s1_addr": "4Th Floor, No 22, Salarpuria Towers-I, Hosur Road Koramangala, Bangalore, Karnataka",
+      "cand_addr": "5Th Floor, No 22, Salarpuria Towers-i, Hosur Road Koramangala, Bengaluru, Bangalore, KA",
+      "type": "FALSE_POSITIVE"
+    }
+  ],
+  "false_negatives_sample": [
+    {
+      "s1_id": "S1-969622957",
+      "cand_id": "S3-245041694",
+      "s1_name": "Dynamic Construction Pvt Ltd",
+      "cand_name": "Dynamic C0nstruction Construction",
+      "s1_addr": "Flat No. 102, Ratna Residency, Vuyyuru Shivalayam Street, Near Water Ta, Nk, Vuyyuru, Krishna, Andhra Pradesh",
+      "cand_addr": "Flat No. 102, Krishna, \u0c06\u0c02\u0c27\u0c4d\u0c30\u0c2a\u0c4d\u0c30\u0c26\u0c47\u0c36\u0c4d",
+      "type": "FALSE_NEGATIVE"
+    },
+    {
+      "s1_id": "S1-702111297",
+      "cand_id": "S3-268412545",
+      "s1_name": "Sai It Private Limited",
+      "cand_name": "Sai It Private Ltd - 1638933011",
+      "s1_addr": "A-209, Pranik Chambers, Saki Vihar Road, Sakinaka, Andheri-East, Mumbai, Mumbai City, Maharashtra",
+      "cand_addr": "A-2-09, Pranik Chambers, Saki Vihar Road, Sakinaka, Andheri-east, Mumbai Region, Mumbai, MH",
+      "type": "FALSE_NEGATIVE"
+    },
+    {
+      "s1_id": "S1-702111297",
+      "cand_id": "S2-482877908",
+      "s1_name": "Sai It Private Limited",
+      "cand_name": "\u0938\u093e\u0908 \u0906\u0908\u091f\u0940 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+      "s1_addr": "A-209, Pranik Chambers, Saki Vihar Road, Sakinaka, Andheri-East, Mumbai, Mumbai City, Maharashtra",
+      "cand_addr": "A-3-209, MUMBAI CITY, MUMBAI, Maharashtra",
+      "type": "FALSE_NEGATIVE"
+    },
+    {
+      "s1_id": "S1-54434857",
+      "cand_id": "S2-349527651",
+      "s1_name": "Galaxy Sai Global Private Limited",
+      "cand_name": "\u0917\u0948\u0932\u0947\u0915\u094d\u0938\u0940 \u0938\u093e\u0908 \u0917\u094d\u0932\u094b\u092c\u0932 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+      "s1_addr": "Farm No 34 G/F, Kh No 491 And 492, New Delhi, South West Delhi, Delhi",
+      "cand_addr": "H.NO 950 FARM NO 34 G/F, NEW DELHI, Delhi",
+      "type": "FALSE_NEGATIVE"
+    },
+    {
+      "s1_id": "S1-54434857",
+      "cand_id": "S3-976110178",
+      "s1_name": "Galaxy Sai Global Private Limited",
+      "cand_name": "Galaxy Sai Sai Limited Private Global",
+      "s1_addr": "Farm No 34 G/F, Kh No 491 And 492, New Delhi, South West Delhi, Delhi",
+      "cand_addr": "Farm No 34 G/f, South West Delhi, New Delhi, DL",
+      "type": "FALSE_NEGATIVE"
+    }
+  ]
+}
