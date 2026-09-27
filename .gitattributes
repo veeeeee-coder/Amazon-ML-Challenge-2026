@@ -9,3 +9,4 @@ resource/student_resource/dataset/train/train_source1.tsv filter=lfs diff=lfs me
 resource/student_resource/dataset/train/train_source2.tsv filter=lfs diff=lfs merge=lfs -text
 resource/student_resource/dataset/train/train_source3.tsv filter=lfs diff=lfs merge=lfs -text
 resource/student_resource/output/matching_results.tsv filter=lfs diff=lfs merge=lfs -text
+../ML[[:space:]]TECHIES_FINAL[[:space:]]SUBMISSION.zip filter=lfs diff=lfs merge=lfs -text
